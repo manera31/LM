@@ -2,6 +2,6 @@
 Lenguaje de marcas
 
 ## estructura minima de una web
-´´´html
+´´´ html
 <p>Hola</p>
 ´´´
