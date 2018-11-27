@@ -93,7 +93,7 @@ Ej2:
 ```
 Este script muestra la hora actual.
 -Al igual que el CSS, tambien podemos crear un archivo separado del HTML con la extension .js y poner una etiqueta en el HTML para agregar el codigo de JavaScript.
-Ej:
+\nEj:
 ```html
 <!DOCTYPE html>
 <head>
