@@ -1,7 +1,40 @@
 # LM
-Lenguaje de marcas
+Lenguaje de marcas / Joan Manera Perez / 1º DAM
 
-## estructura minima de una web
+## Estructura minima de una web
 ```html
-<p>Hola</p>
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+
+</body>
+</html>
+```
+
+## Explica las 3 formas de usar CSS en HTML
+-La primera es poniendo el codigo en la misma etiqueta utilizando el atributo "span". Ej:
+```html
+<p>¡Hola <span style="color:#FF0000">amigo lector</span>!</p>
+```
+-La segunda es poniendo el codigo dentro de la cabecera del documento con la etiqueta "style". EJ:
+```html
+<html>
+<head>
+    <title>Título de la página</title>
+    <style type="text/css">
+        div {
+            background:#FFFFFF;
+        }
+    </style>
+</head>
+...
+```
+-La tercera y ultima es la mas recomendable y es la que mas se utiliza. Esta consiste en crear un fichero .css aparte del html y en la cabecera poner un "link" para enlazar los dos archivos. Ej:
+```html
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
 ```
