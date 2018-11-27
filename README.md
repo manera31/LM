@@ -122,6 +122,7 @@ document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.ge
 <div class="rojo">Lenguaje de marcas</div>
 ```
 
-
-
-
+## Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
+```html
+<a href="pagina.html" target="_blank">Título del enlace</a>
+```
