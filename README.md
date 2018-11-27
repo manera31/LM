@@ -109,3 +109,11 @@ Y el contenido del fichero myscript.js seria:
 let d = new Date();
 document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()</h1>"
 ```
+
+## ¿Que diferencia hay entre una clase y una ID?
+-El valor del atributo ID de un elemento es único; es decir, no debería haber otro elemento con el mismo nombre de identificador (ID) dentro del documento HTML.
+-A diferencia del atributo ID, class si que puede ser utilizado en mas de un elemento del documento HTML.
+
+
+
+
