@@ -38,3 +38,23 @@ Lenguaje de marcas / Joan Manera Perez / 1º DAM
   <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 ```
+  En "href" ponemos la ruta donde esta el fichero .css que le dara formato a la web.
+  
+## Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lenguaje de marcas</title>
+</head>
+<body>
+<h1>Lista sin ordenar</h1>
+<ul>
+	<li>UNo</li>
+	<li>Dos</li>
+	<li>Tres</li>
+	<li>Cuatro</li>
+</ul>
+</body>
+</html>
+```
