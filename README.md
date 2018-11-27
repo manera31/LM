@@ -91,4 +91,21 @@ Ej2:
 </body>
 </html>
 ```
-	Este script muestra la hora actual.
+Este script muestra la hora actual.
+-Al igual que el CSS, tambien podemos crear un archivo separado del HTML con la extension .js y poner una etiqueta en el HTML para agregar el codigo de JavaScript.
+Ej:
+```html
+<!DOCTYPE html>
+<head>
+	<title>Time right now:</title>
+</head>
+<body>
+</body>
+	<script src="js/myscript.js"></script>
+</html>
+```
+Y el contenido del fichero myscript.js seria:
+```html
+let d = new Date();
+document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()</h1>"
+```
