@@ -58,3 +58,37 @@ Lenguaje de marcas / Joan Manera Perez / 1º DAM
 </body>
 </html>
 ```
+
+## Como se puede incluir javascript en HTML
+-Para introducir codigo javascript en HTML, lo podemos hacer poniendo la etiqueta "script" en la cabecera o en el cuerpo. Se recomienda ponerlo en la cabecera para mantenerlo separado del contenido del HTML, pero si lo ponemos en el cuerpo, puede mejorar la velocidad de la web.
+Ej1:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		var time = new Date();
+		console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+```
+Ej2:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+	<script>
+		var time = new Date();
+		console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+	</script>
+</body>
+</html>
+```
+	Este script muestra la hora actual.
