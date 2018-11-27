@@ -134,6 +134,8 @@ Pseudoclases: :active, :checked, :default, :dir(), :disabled, :empty, :enabled, 
 
 ## Explica el modelo de caja de CSS (margin, border y padding)
 
+
+
 ## Explica que son los selectores de CSS y pon ejemplos
 
 ## Di a quien afectan:
