@@ -111,8 +111,16 @@ document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.ge
 ```
 
 ## ¿Que diferencia hay entre una clase y una ID?
--El valor del atributo ID de un elemento es único; es decir, no debería haber otro elemento con el mismo nombre de identificador (ID) dentro del documento HTML.
--A diferencia del atributo ID, class si que puede ser utilizado en mas de un elemento del documento HTML.
+-El valor del atributo ID de un elemento es único; es decir, no debería haber otro elemento con el mismo nombre de identificador (ID) dentro del documento HTML. En el fichero CSS, se pondria "#unico{...}" para darle formato.
+```html
+<div id="unico">Lenguaje de marcas</div>
+```
+
+
+-A diferencia del atributo ID, class si que puede ser utilizado en mas de un elemento del documento HTML. En el fichero CSS, se pondria ".rojo{...}" para darle formato.
+```html
+<div class="rojo">Lenguaje de marcas</div>
+```
 
 
 
