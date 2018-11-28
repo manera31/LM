@@ -134,6 +134,7 @@ Pseudoclases: :active, :checked, :default, :dir(), :disabled, :empty, :enabled, 
 
 ## Explica el modelo de caja de CSS (margin, border y padding)
 -Cuando creamos una etiqueta, por ejemplo un div, esta tiene un ancho y un alto segun el contenido que le metas dentro. Pero nosotros podemos modificar este ancho y este alto utilizando "width" y "high", asi la etiqueta tendra una forma asignada. Sin hacer nada mas, la pagina mostrara el div pegado en la parte superior izquierda. 
+*TODOS LOS CAMBIOS SE HACEN DESDE EL CSS*
 ### Margin
 Si le ponemos un margin de 10 pixeles, el div mantendra una separación de 10 pixeles por el lado donde le has puesto el margin. 
 Ej: Si ponemos "margin-top: 10px;", guardaremos 10 pixeles de separacion por arriba. Lo mismo con bottom, left y right. Tambien lo podemos poner con el formato "margin: 10px, auto", que este guardara 10 pixeles por arriba y por abajo y centrara el div por la derecha y por la izquierda ya que le hemos puesto auto. Otra forma seria "margin: 10px, 20px, 30px, 40px;", que guardaria 10 pixeles por arriba, 20 por la derecha, 30 por abajo y 40 por la izquiera, como las agujas del reloj.
@@ -142,7 +143,7 @@ Cuando le ponemos un borde a una etiqueta, esta se verá en la página recubiert
 ### Padding
 El padding es parecido al margin; mientras que en el margin separas la etiqueta de la pagina, en el padding separas el conenido de la etiqueta respecto la misma etiqueta. Ej: Tenemos una etiqueta div con un texto, y le ponemos a esta etiqueta "padding: 10px;", guardaria un espacio de 10 pixeles por todos los lados dentro del div. Tambien funciona el padding-top, bottom, left y right.
 A esto le tenemos que sumar el ancho y el alto de la etiqueta, los bordes y el padding. Ej: Tenemos un div con una anchura y una altura de 500 pixles, tiene un padding por todos los lados de 30 pixeles y tiene un borde solido de 2 pixeles, finalmente tendría un ancho y un alto de 2+30+500+30+2 = 564 pixeles.
-*TODOS LOS CAMBIOS SE HACEN DESDE EL CSS*
+
 
 ## Explica que son los selectores de CSS y pon ejemplos
 -Existen otras reglas que pueden ser utilizadas para crear selectores que permiten un mayor nivel de especificidad en cuanto a los elementos HTML a los cuales se les desea aplicar determinada regla de estilo.
@@ -156,3 +157,4 @@ p ~ ul - Selecciona todos elementos <ul> que estan precedidos del elemento <p>
 
 
 ## Di a quien afectan:
+p a { color: red; - A todos los enlazes que estan dentro de un parrafo les pone el color de la letra en rojo.
