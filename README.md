@@ -133,7 +133,11 @@ Pseudoclases: :active, :checked, :default, :dir(), :disabled, :empty, :enabled, 
 
 
 ## Explica el modelo de caja de CSS (margin, border y padding)
-
+-Cuando creamos una etiqueta, por ejemplo un div, esta tiene un ancho y un alto segun el contenido que le metas dentro. Pero nosotros podemos modificar este ancho y este alto utilizando "width" y "high", asi la etiqueta tendra una forma asignada. Sin hacer nada mas, la pagina mostrara el div pegado en la parte superior izquierda. 
+### Margin
+Si le ponemos un margin de 10 pixeles, el div mantendra una separación de 10 pixeles por el lado donde le has puesto el margin. 
+Ej: Si ponemos "margin-top: 10px;", guardaremos 10 pixeles de separacion por arriba. Lo mismo con bottom, left y right. Tambien lo podemos poner con el formato "margin: 10px, auto", que este guardara 10 pixeles por arriba y por abajo y centrara el div por la derecha y por la izquierda ya que le hemos puesto auto. Otra forma seria "margin: 10px, 20px, 30px, 40px", que guardaria 10 pixeles por arriba, 20 por la derecha, 30 por abajo y 40 por la izquiera, como las agujas del reloj.
+### Border
 
 
 ## Explica que son los selectores de CSS y pon ejemplos
