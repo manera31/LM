@@ -146,12 +146,13 @@ A esto le tenemos que sumar el ancho y el alto de la etiqueta, los bordes y el p
 
 ## Explica que son los selectores de CSS y pon ejemplos
 -Existen otras reglas que pueden ser utilizadas para crear selectores que permiten un mayor nivel de especificidad en cuanto a los elementos HTML a los cuales se les desea aplicar determinada regla de estilo.
-
+```html
 div, p - Selecciona todos elementos <div> y todos elementos <p>
 div p - Selecciona todos elementos <p> dentro de los elementos <div>
 div > p - Selecciona todos elementos <p> que son descendientes directos del elemento <div>
 div + p - Selecciona todos elementos <p> que estan situados inmediatamente despues del elemento <div>
 p ~ ul - Selecciona todos elementos <ul> que estan precedidos del elemento <p>
+```
 
 
 ## Di a quien afectan:
