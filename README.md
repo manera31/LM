@@ -157,4 +157,23 @@ p ~ ul - Selecciona todos elementos <ul> que estan precedidos del elemento <p>
 
 
 ## Di a quien afectan:
-p a { color: red; - A todos los enlazes que estan dentro de un parrafo les pone el color de la letra en rojo.
+```html
+p a { color: red; - A nada ya que no se cierran los corchetes "}". Pero si estubieran cerrados afectaria a todos los enlaces que estan dentro de un parrafo poniendoles el color de la letra en rojo.
+```
+```html
+p > a { color: red; } - A todos los enlaces que descienden directamente de un parrafo les pone el color de la letra en rojo.
+```
+```html
+h1 + h2 { color: red } - Funcionaria pero se debe de poner ";" despues de cada linea. Les cambiaria el color de la letra a rojo a todos los h2 que estan situados inmediatamente despues que los h1.
+```
+```html
+a[class] { color: blue; } - 
+```
+```html
+a[class="externo"] { color: blue; } - 
+```
+```html
+a[href="http://www.ejemplo.com"] { color: blue; } - 
+```
+
+
