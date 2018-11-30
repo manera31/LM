@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout con inline-block</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#outer {
+			width: 800px;
+			height: 800px;
+			background-color: #CCC;
+			margin: 0px auto;
+			border: solid 2px;
+			font-size: 0px;	
+			
+		}
+		
+		#logo{
+			width: 15%;
+			height :120px;
+			display: inline-block;
+			font-size: 15px;
+			border-bottom: solid 2px;
+			text-align: center;
+		}
+		
+		#titulo {
+			width: 55%;
+			height: 120px;
+			display: inline-block;
+			font-size: 15px;
+			border-bottom: solid 2px;
+			text-align: center;
+		}
+		#busqueda {
+			width: 30%;
+			height: 135px;
+			display: inline-block;
+			font-size: 15px;
+			border-bottom: solid 2px;
+			text-align: center;
+		}
+		li {
+			display: inline-block;
+			font-size: 15px;
+			text-align: center;
+
+
+		}
+		nav {
+			width: 780px;
+			height: 40px;
+			margin: 10px auto;
+			border: solid 2px;
+			font-size: 20px;
+			text-align: center;
+		}
+		#asideysection {
+			width: 780px;
+			height: 590px;
+			margin: 10px auto;
+			padding: 0px;
+		}	
+		
+		#menuIzquierda{
+			width: 15%;
+			height: 587px;
+			border: solid 2px;
+			display: inline-block;
+		}
+		#contenido{
+			display: inline-block;
+			width: 55%;
+			height: 400px;
+			border: solid 2px;
+			vertical-align: top;
+			margin: auto 33px ;
+		}
+
+		#menuDerecha{
+			width: 20%;
+			height: 400px;
+			border: solid 2px;
+			display: inline-block;
+			vertical-align: top;		
+		}
+		.separacion li{
+			margin-top: 20px;
+			margin-right: 20px;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div id="outer">
+		<header>
+			<div id="logo">Logo</div>
+			<div id="titulo">titulo</div>
+			<div id="busqueda">
+				<ol>
+					<li>Topic 1</li>
+					<li>Topic 2</li>
+					<li>Topic 3</li>
+					<li>Topic 4</li>
+				</ol>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li>Section1</li>
+				<li>Section2</li>
+				<li>Section3</li>
+				<li>Section4</li>
+			</ul>
+		</nav>
+		<div id="asideysection">
+			<aside id="menuIzquierda">
+				<ul class="separacion">	
+					<li>Section1</li>
+					<li>Section2</li>
+					<li>Section3</li>
+					<li>Section4</li>
+					<li>Section5</li>
+					<li>Section6</li>
+					<li>Section7</li>
+					<li>Section8</li>
+					<li>Section9</li>
+					<li>Section10</li>
+					<li>Section11</li>
+					<li>Section12</li>
+					<li>Section13</li>
+					<li>Section14</li>
+					<li>Section15</li>
+				</ul>
+			</aside>
+			<section id="contenido"></section>
+			<aside id="menuDerecha">
+				<ul class="separacion">
+					<li>Feature 1</li>
+					<li>Feature 2</li>
+					<li>Feature 3</li>
+					<li>Feature 4</li>
+					<li>Feature 5</li>
+					<li>Feature 6</li>
+				</ul>
+			</aside>
+			<div class="loremIpsum">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</div>
+		</div>
+		<footer></footer>
+	</div>
+</body>
+</html>
