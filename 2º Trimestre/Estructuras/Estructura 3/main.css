@@ -1,0 +1,22 @@
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    padding: 50px; 25px;
+    border: 1px solid;
+}
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.marginBottom {
+    margin-bottom: 25px;
+}
+.entry {
+    border: 1px solid rgba(147, 128, 108, 0.25);
+    padding: 0.5em 0.75em;
+    background-color: rgba(147, 128, 108, 0.1);
+    color: #666666;
+}

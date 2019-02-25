@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+				.titulo{
+			display: flex;
+		}
+		div h1{
+			margin-top: 40px;
+			margin-left: 100px;
+			font-size: 50px;
+		}
+		.container{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+		.equipos{
+			font-size: 30px;
+			margin-top: 50px;
+			text-align: center;
+		}
+		.boton{
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.resultado{
+			display: inline-flex;
+			width: 300px;
+		}
+		.resultado p{
+			margin-right: 10px;
+		}
+
+	</style>
+	<title>hola</title>
+</head>
+<body>
+	<div class="container titulo">
+		<img src="https://cadenaser00.epimg.net/emisora/imagenes/2017/07/05/radio_san_sebastian/1499268719_903532_1499268761_noticia_normal.jpg" height="150px", width="200px">
+		<h1>Liga ACB</h1>
+	</div>
+	
+	<div class="container">
+	
+		<div class="equipos">
+			<p>Equipo 1</p>
+			<br>
+			<input type="text" id=e1p1 name="e11">
+			<br>
+			<input type="text" id=e1p2 name="e12">
+			<br>
+			<input type="text" id=e1p3 name="e13">
+		</div>
+		<div class="equipos">
+			<p>Equipo 2</p>
+			<br>
+			<input type="text" id=e2p1 name="e21">
+			<br>
+			<input type="text" id=e2p2 name="e22">
+			<br>
+			<input type="text" id=e2p3 name="e23">
+		</div>
+	</div>
+	<center>
+		<input class ="boton" type="button" id=boton_calcula value="CALCULA">
+	</center>
+	<div class="container">
+		<div class="resultado">
+			<p>Media</p>
+			<input type="text" id=media name="Media">
+		</div>
+
+		<div class="resultado">
+			<p>Ganador</p>
+			<input type="text" id=ganador name="Ganador">
+		</div>
+	</div>
+	
+	
+
+	<script type="text/javascript">
+		
+		document.getElementById("boton_calcula").addEventListener("click", calcular_media);
+		
+		function calcular_media(){
+			var num1 = document.getElementById("e1p1").value;
+			var num2 = document.getElementById("e1p2").value;
+			var num3 = document.getElementById("e1p3").value;
+
+			var suma1 = Number(parseInt(num1)+parseInt(num2)+parseInt(num3));
+
+
+			var num4 = document.getElementById("e2p1").value;
+			var num5 = document.getElementById("e2p2").value;
+			var num6 = document.getElementById("e2p3").value;
+
+			var suma2 = Number(parseInt(num4)+parseInt(num5)+parseInt(num6));
+
+			var res;
+			var ganador;
+
+			if (suma1 > suma2) {
+				res  = parseInt(suma1)/3;
+				ganador = "Equipo 1";
+			} else {
+				res  = parseInt(suma2)/3;
+				ganador = "Equipo 2";
+			}
+			document.getElementById("ganador").value = ganador;
+			document.getElementById("media").value = res;
+		}
+
+	</script>
+</body>
+</html>

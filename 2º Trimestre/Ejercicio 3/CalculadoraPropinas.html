@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div h1{
+			margin-top: 40px;
+			margin-left: 100px;
+			font-size: 50px;
+		}
+		.container{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+		.boton{
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.caja{
+			display: inline-flex;
+			justify-content: center;
+			width: 500px;
+		}
+		.caja p{
+			margin-right: 10px;
+		}
+
+	</style>
+	<title>hola</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Calculadora propinas</h1>
+	</div>
+
+	<div class="container">
+		<div class="caja">
+			<p>Precio de la comida</p>
+			<input type="text" id=precioComida name="Precio Comida">
+		</div>
+		<div class="caja">
+			<p>Resultado</p>
+			<input type="text" id=resultado name="Resultado">
+		</div>
+	</div>
+	
+	
+	<center>
+		<input class ="boton" type="button" id=boton_calcula value="CALCULA">
+	</center>
+		
+
+	<script type="text/javascript">
+		
+		document.getElementById("boton_calcula").addEventListener("click", calcular_propina);
+		
+		function calcular_propina(){
+			var precioComida = parceInt(document.getElementById("precioComida").value);
+			var resultado = number;
+
+			if (parseInt(precioComida) < 50) {
+				resultado = parseInt(resultado)*0.2;
+			} else if (parseInt(precioComida) >= 50 && parseInt(precioComida) <= 200) {
+				resultado = parseInt(resultado)*0.15;
+			} else {
+				resultado = parseInt(resultado)*0.10;
+			}
+
+			document.getElementById("resultado").value = parseInt(resultado);
+		}
+
+	</script>
+</body>
+</html>

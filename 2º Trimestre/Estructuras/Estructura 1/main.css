@@ -1,0 +1,21 @@
+body{
+	background-color: #87CEEB
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+
+}
+.box{
+	width: 300px;
+	background-color: white;
+	border: solid 1px black;
+	padding: 10px;
+}
+.return{
+	margin: 10px auto;
+	background-color: white;
+	padding: 10px;
+	width: 90px;
+	height: 15px;
+}

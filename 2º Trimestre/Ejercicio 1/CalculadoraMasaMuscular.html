@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MMI</title>
+</head>
+<body>
+ 
+Peso<input type="number" id="peso" name=""><br>
+Altura<input type="number" id="altura"><br>
+MMI<input type="number" id="mmi" name=""><br>
+<input type="button" id="calcula" value="Calcula">
+ 
+<script type="text/javascript">
+// botones qu escuchan
+document.getElementById("calcula").addEventListener("click", mmi)
+ 
+function mmi() {
+var peso = document.getElementById("peso").value;
+var altura = document.getElementById("altura").value;
+var mmi = peso/(altura*altura);
+document.getElementById("mmi").value = mmi
+console.log(mmi);
+}
+ 
+</script>
+</body>
+</html>
