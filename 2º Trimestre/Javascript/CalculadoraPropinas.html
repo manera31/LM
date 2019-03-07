@@ -39,7 +39,7 @@
 			<input type="text" id=precioComida name="Precio Comida">
 		</div>
 		<div class="caja">
-			<p>Resultado</p>
+			<p>Propina</p>
 			<input type="text" id=resultado name="Resultado">
 		</div>
 	</div>
@@ -55,18 +55,20 @@
 		document.getElementById("boton_calcula").addEventListener("click", calcular_propina);
 		
 		function calcular_propina(){
-			var precioComida = parceInt(document.getElementById("precioComida").value);
-			var resultado = number;
+			var precioComida = document.getElementById("precioComida").value;
+			var resultado;
 
-			if (parseInt(precioComida) < 50) {
-				resultado = parseInt(resultado)*0.2;
-			} else if (parseInt(precioComida) >= 50 && parseInt(precioComida) <= 200) {
-				resultado = parseInt(resultado)*0.15;
-			} else {
-				resultado = parseInt(resultado)*0.10;
+			if (precioComida < 50) {
+				resultado = precioComida*0.2;
+			}
+			if (precioComida >= 50 || precioComida <= 200) {
+				resultado = precioComida*0.15;
+			} 
+			if (precioComida > 200) {
+				resultado = precioComida*0.10;
 			}
 
-			document.getElementById("resultado").value = parseInt(resultado);
+			document.getElementById("resultado").value = resultado;
 		}
 
 	</script>

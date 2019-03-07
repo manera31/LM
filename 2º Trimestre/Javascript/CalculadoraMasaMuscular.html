@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MMI</title>
+		<style type="text/css">
+			.container {
+				display: flex;
+				justify-content: space-around;
+				width: 500px;
+			}
+			.boton {
+				margin-top: 40px;
+				height: 30px;
+			}
+			.mmi {
+				margin-right: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<p>Peso</p>
+				<input type="number" id="peso" name=""><br>	
+			</div>
+			<div>
+				<p>Altura</p>
+				<input type="number" id="altura"><br>
+			</div>
+		</div>
+		<div class="container">
+			<div class="mmi">
+				<p>MMI</p>
+				<input type="number" id="mmi" name=""><br>
+			</div>
+			
+			<input type="button" id="calcula" value="Calcula" class="boton">
+		</div>
+			
+		
+		
+		<script type="text/javascript">
+			document.getElementById("calcula").addEventListener("click", mmi)
+			 
+			function mmi() {
+			var peso = document.getElementById("peso").value;
+			var altura = document.getElementById("altura").value;
+			var mmi = peso/(altura*altura);
+			document.getElementById("mmi").value = mmi
+			console.log(mmi);
+			}
+		</script>
+	</body>
+</html>
