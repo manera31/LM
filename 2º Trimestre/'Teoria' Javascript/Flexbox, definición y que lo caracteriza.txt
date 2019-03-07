@@ -1,0 +1,7 @@
+¿Que es flexbox?
+El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación.
+
+Flexbox es un módulo de diseño en CSS3 para mejorar la forma en que hacemos Responsive Design, evitando así el uso de float (no recomendado). Gracias a FlexBox facilitamos la forma en que posicionamos elementos, es más simple y usamos menos código.
+
+Fuentes: https://filisantillan.com/el-gran-poder-de-css3-flexbox/
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox

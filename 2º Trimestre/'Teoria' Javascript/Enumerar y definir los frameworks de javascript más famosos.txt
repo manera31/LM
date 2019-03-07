@@ -1,0 +1,11 @@
+Angular - Uno de los marcos de JavaScript más potentes, eficientes y de código abierto es Angular. Este marco es operado por Google y se implementa básicamente para usarlo en el desarrollo de aplicaciones de una sola página (SPA)
+
+React - Creado por Facebook, el marco React ha ganado popularidad en un corto período de tiempo. De hecho, se utiliza para desarrollar y operar la interfaz de usuario dinámica de las páginas web con alto tráfico entrante.
+
+Vue.js - Aunque se desarrolló en el año de 2016, este marco de JavaScript ya se ha introducido en el mercado y ha demostrado su valía al ofrecer múltiples funciones. Su modo de integración dual es una de las características más atractivas para la creación de aplicaciones de página única o SPA de gama alta.
+ 
+Ember.js - Ember.js se introdujo en el mercado de software en 2015 y, desde entonces, ha ganado popularidad gracias a su amplia área de aplicación. Las características de Ember.js admiten el enlace de datos bidireccional y, por lo tanto, establecen una plataforma confiable para manejar las complejas interfaces de usuario.
+
+Node.js - Node.js es un entorno de tiempo de ejecución de JavaScript del lado del servidor, que funciona en varias plataformas y es de código abierto. El marco es capaz de conducir E / S asíncronas con su arquitectura controlada por eventos.
+
+Fuente: https://hackr.io/blog/10-best-javascript-frameworks-2019

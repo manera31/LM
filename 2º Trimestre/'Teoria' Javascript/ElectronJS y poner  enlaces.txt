@@ -1,0 +1,8 @@
+¿Que es Electron?
+Electron es un framework para JavaScript que permite el desarrollo de aplicaciones enriquecidas de escritorio mediante el uso de tecnologías web. Esta desarrollado por GitHub (lo que garantiza revisiones constantes), es de código abierto y multiplataforma (funciona bajo Linux, Mac y Windows).
+Electron está basado en io.js y funciona bajo un subconjunto mínimo de librerías de Chromium. Además proporciona acceso a APIs nativas enriquecidas mediante el motor de Chromium, el cual es controlado mediante JavaScript.
+
+Enlaces
+Web oficial de Electron: https://electronjs.org/
+Aplicaciones creadas con Electron: https://electronjs.org/apps
+Primeros pasos con Electron: https://platzi.com/blog/aplicaciones-escritorio-electron-js/
